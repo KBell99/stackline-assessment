@@ -1,0 +1,43 @@
+.sales-table {
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 1.5;
+    margin: 40px 40px 40px 0px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.sales-table td {
+    border-top: 1px solid #e6e6e6;
+    padding: 10px 0px 10px 20px;
+    color: #9ba1ab;
+}
+
+.sales-table th {
+    padding: 20px 20px 20px 20px;
+    font-weight: lighter;
+}
+
+.sales-header-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sales-header-item p{
+    margin-right: 10px;
+}
+
+
+.left-align {
+    text-align: left;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.caret{
+    color: #9ba1ab;
+}
