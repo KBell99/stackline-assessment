@@ -28,7 +28,7 @@ const SalesHeader = () => {
         >
           <div className="sales-header-item">
             <p>{column}</p>
-            <FontAwesomeIcon icon={faChevronDown}/>
+            <FontAwesomeIcon icon={faChevronDown} className="caret"/>
           </div>
         </th>
       ))}
