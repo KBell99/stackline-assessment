@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { fetchProduct } from "./reducers/products";
 import Navbar from "./components/Navbar";
