@@ -10,7 +10,6 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    console.log("fetched product");
     dispatch(fetchProduct("B007TIE0GQ"));
   }, []);
 

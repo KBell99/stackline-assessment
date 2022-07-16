@@ -10,7 +10,6 @@ const products = (state = initialState, action) => {
     const { type, payload } = action;
     switch (type) {
         case 'FETCH_PRODUCT':
-            console.log('payload', payload);
             return {...state, product: payload};
         default:
             return state;
